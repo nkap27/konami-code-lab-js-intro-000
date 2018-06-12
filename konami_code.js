@@ -14,7 +14,7 @@ const codes = [
 let i = 0;
 
 function init(event) {
-  const key = event.keyCode;
+  const key = event.which;
   if(key === codes[i]){
       i++;
 
