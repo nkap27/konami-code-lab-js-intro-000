@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init(e) {
-  const key = e.key;
+  const key = e.which;
   let i =0;
   if(key === codes[i]){
       i++;
