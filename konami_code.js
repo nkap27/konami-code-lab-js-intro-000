@@ -13,7 +13,7 @@ const codes = [
 
 let i = 0;
 
-function init(e) {
+function init(event) {
   const key = event.keyCode;
   if(key === codes[i]){
       i++;
