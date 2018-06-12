@@ -14,10 +14,10 @@ const codes = [
 function init() {
 
 let i = 0;
-  
+
   document.body.addEventListener('keydown', function(event) {
 
-  const key = event.which;
+  const key = event.key;
   if(key === codes[i]){
       i++;
 
