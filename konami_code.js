@@ -11,9 +11,10 @@ const codes = [
   "a"
 ];
 
+let i =0;
+
 function init(e) {
   const key = e.which;
-  let i =0;
   if(key === codes[i]){
       i++;
 
