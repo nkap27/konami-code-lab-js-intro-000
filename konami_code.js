@@ -30,4 +30,4 @@ function init(event) {
       }
     }
 
-document.body.addEventListener('keydown', init());
+document.body.addEventListener('keydown', init;
