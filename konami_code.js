@@ -23,13 +23,13 @@ function init(e) {
         alert("You did it!");
 
         i = 0;
+      }
 
       } else {
 
         i = 0;
 
       }
-    }
-};
+    };
 
 document.body.addEventListener('keydown', init(e));
