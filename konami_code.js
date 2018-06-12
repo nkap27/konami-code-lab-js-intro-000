@@ -11,7 +11,7 @@ const codes = [
   "a"
 ];
 
-let i =0;
+let i = 0;
 
 function init(e) {
   const key = e.keyCode;
