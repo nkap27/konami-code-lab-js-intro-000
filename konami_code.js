@@ -13,8 +13,8 @@ const codes = [
 
 let i = 0;
 
-function init(event) {
-  document.body.addEventListener('keydown', function() {
+function init() {
+  document.body.addEventListener('keydown', function(event) {
 
   const key = event.which;
   if(key === codes[i]){
