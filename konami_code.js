@@ -9,8 +9,9 @@ const codes = [
   "ArrowRight",
   "b",
   "a"
+];
 
-function init(){
+function init() {
   const key = e.key;
   let i =0;
   if(key === codes[i]){
@@ -28,4 +29,4 @@ function init(){
 
       }
     }
-  };
+};
