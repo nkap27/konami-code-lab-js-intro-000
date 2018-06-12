@@ -9,8 +9,23 @@ const codes = [
   "ArrowRight",
   "b",
   "a"
-];
 
-function init() {
-  // your code here
-}
+function init(){
+  const key = e.key;
+  let i =0;
+  if(key === codes[i]){
+      i++;
+
+      if(i === codes.length){
+
+        alert("You did it!");
+
+        i = 0;
+
+      } else {
+
+        i = 0;
+
+      }
+    }
+  };
