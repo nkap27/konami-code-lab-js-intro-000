@@ -11,7 +11,7 @@ const codes = [
   "a"
 ];
 
-function init() {
+function init(e) {
   const key = e.key;
   let i =0;
   if(key === codes[i]){
