@@ -28,8 +28,7 @@ function init(e) {
       } else {
 
         i = 0;
-
       }
-    };
+    }
 
 document.body.addEventListener('keydown', init(e));
