@@ -24,8 +24,7 @@ function init(e) {
 
         i = 0;
       }
-
-      } else {
+    } else {
 
         i = 0;
       }
